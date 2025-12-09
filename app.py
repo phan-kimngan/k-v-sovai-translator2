@@ -463,11 +463,10 @@ async function stopRecording(e) {
 }
 </script>
 """
-
-    components.html(
-    voice_html.replace("###LANG###", src_tts_lang),
-    height=60
-)
+        components.html(
+            voice_html.replace("###LANG###", src_tts_lang),
+            height=60
+        )
 
 
 
