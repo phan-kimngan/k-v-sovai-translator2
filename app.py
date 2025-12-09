@@ -307,17 +307,11 @@ with col1:
         key="input_text",
         label_visibility="collapsed"
     )
-    colA, colB = st.columns([4, 1])
-    with colB:
-        if st.button("🔊", key="speak_input"):
-            if input_text.strip():
-                tts = gTTS(input_text, lang=src_tts_lang)
-                tts.save("input_tts.mp3")
-                with open("input_tts.mp3", "rb") as f:
-                    st.audio(f.read(), format="audio/mp3")  
+
+
     
-    with colA:
-        voice_html = """
+
+    voice_html = """
 <style>
 
 #holdToTalk {
@@ -467,7 +461,12 @@ async function stopRecording(e) {
             voice_html.replace("###LANG###", src_tts_lang),
             height=60
         )
-
+    if st.button("🔊", key="speak_input"):
+        if input_text.strip():
+            tts = gTTS(input_text, lang=src_tts_lang)
+            tts.save("input_tts.mp3")
+            with open("input_tts.mp3", "rb") as f:
+                st.audio(f.read(), format="audio/mp3")  
 
 
 # ==============================
