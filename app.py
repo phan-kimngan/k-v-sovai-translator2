@@ -323,7 +323,7 @@ with col1:
 
 #holdToTalk {
     width: 62px !important;
-    height: 42px !important;
+    height: 52px !important;
     font-size: 20px !important;
     border-radius: 10px !important;
     background: rgba(255,255,255,0.65) !important;
