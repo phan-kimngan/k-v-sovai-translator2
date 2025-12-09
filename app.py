@@ -165,16 +165,7 @@ if "history" not in st.session_state:
 # ==============================
 # 3. CSS
 # ==============================
-st.markdown("""
-<style>
-.swap-btn-container {
-    margin-top: 10px !important;
-    margin-bottom: 10px !important;
-    display:flex !important;
-    justify-content:center !important;
-}
-</style>
-""", unsafe_allow_html=True)
+
 # khoảng cách 2 box trong mobile
 st.markdown(
     """
@@ -249,7 +240,16 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
+st.markdown("""
+<style>
+.swap-btn-container {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    display:flex !important;
+    justify-content:center !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # 4. HEADER
 # ==============================
