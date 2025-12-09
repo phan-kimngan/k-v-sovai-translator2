@@ -243,7 +243,7 @@ st.markdown(
 st.markdown("""
 <style>
 .swap-btn-container {
-    margin-top: 10px !important;
+    margin-top: 50px !important;
     margin-bottom: 10px !important;
     display:flex !important;
     justify-content:center !important;
