@@ -307,7 +307,7 @@ with col1:
         key="input_text",
         label_visibility="collapsed"
     )
-    colA, colB = st.columns([1, 1])
+    colA, colB = st.columns([3, 1])
     with colA:
         if st.button("🔊", key="speak_input"):
             if input_text.strip():
