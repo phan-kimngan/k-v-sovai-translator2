@@ -308,7 +308,7 @@ with col1:
         label_visibility="collapsed"
     )
     colA, colB = st.columns([4, 1])
-    with colA:
+    with colB:
         if st.button("🔊", key="speak_input"):
             if input_text.strip():
                 tts = gTTS(input_text, lang=src_tts_lang)
@@ -316,7 +316,7 @@ with col1:
                 with open("input_tts.mp3", "rb") as f:
                     st.audio(f.read(), format="audio/mp3")  
     
-    with colB:
+    with colA:
         voice_html = """
 <style>
 
