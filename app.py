@@ -243,14 +243,10 @@ st.markdown(
 st.markdown("""
 <style>
 .swap-btn-container {
-    margin-top: 50px !important;
-    margin-bottom: 50px !important;
-    display:flex !important;
-    justify-content:center !important;
+    margin-top: 20px !important;   /* đẩy xuống */
 }
 </style>
 """, unsafe_allow_html=True)
-
 # 4. HEADER
 # ==============================
 st.markdown(
