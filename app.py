@@ -272,9 +272,9 @@ col1, col_center, col2 = st.columns([1, 0.25, 1])
 # 6. SWAP
 # ==============================
 with col_center:
-    #st.markdown("<div class='swap-container'>", unsafe_allow_html=True)
-    st.markdown(f"<div style='align-items: center !important; margin-top: -30px !important; margin-bottom: -30px !important;'>", unsafe_allow_html=True)
-    swap_clicked = st.button("⬆️⬇️", key="swap_button")
+    #st.markdown("<div class='swap-btn-container'>", unsafe_allow_html=True)
+    st.markdown(f"<div style='align-items: center !important;'>", unsafe_allow_html=True)
+    swap_clicked = st.button("↔️", key="swap_button")
     st.markdown("</div>", unsafe_allow_html=True)
 
 if swap_clicked:
