@@ -322,8 +322,8 @@ with col1:
 <style>
 
 #holdToTalk {
-    width: 42px !important;
-    height: 42px !important;
+    width: 62px !important;
+    height: 62px !important;
     font-size: 20px !important;
     border-radius: 10px !important;
     background: rgba(255,255,255,0.65) !important;
