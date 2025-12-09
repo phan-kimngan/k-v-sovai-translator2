@@ -80,6 +80,8 @@ st.markdown("""
 
     /* Căn giữa nút icon 🔊 và ↔️ */
     .stButton > button {
+        width:42px !important;
+        height:42px !important;
         display: flex;
         justify-content: center !important;
         align-items: center !important;
