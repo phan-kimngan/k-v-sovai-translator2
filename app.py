@@ -244,7 +244,7 @@ st.markdown("""
 <style>
 .swap-btn-container {
     margin-top: 50px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 50px !important;
     display:flex !important;
     justify-content:center !important;
 }
