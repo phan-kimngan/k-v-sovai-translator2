@@ -13,4 +13,4 @@ Name: Kim Ngan Phan
 + The first step is to train the models and collect their weights.
 + Run the FastAPI server, which provides the main system APIs: /kor2vie, /vie2kor, and /voice2text. 
 + Install ngrok and open a public tunnel for the server.
-+ Push the Streamlit source code to GitHub.Log in to https://share.streamlit.io using your GitHub account, then select Create App → Deploy an app. Once deployed, a public URL will be provided, allowing the Streamlit application to run on web browsers across PC　devices.
++ Push the Streamlit source code to GitHub.Log in to https://share.streamlit.io using your GitHub account, then select Create App → Deploy an app. Once deployed, a public URL will be provided, allowing the Streamlit application to run on web browsers across PC devices.
